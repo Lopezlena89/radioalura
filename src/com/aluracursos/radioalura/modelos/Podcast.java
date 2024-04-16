@@ -2,15 +2,15 @@ package com.aluracursos.radioalura.modelos;
 
 public class Podcast extends Audio{
 
-    private String presentados;
+    private String presentador;
     private String descripcion;
 
-    public String getPresentados() {
-        return presentados;
+    public String getPresentador() {
+        return presentador;
     }
 
-    public void setPresentados(String presentados) {
-        this.presentados = presentados;
+    public void setPresentador(String presentados) {
+        this.presentador = presentados;
     }
 
     public String getDescripcion() {
